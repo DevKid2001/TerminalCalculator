@@ -44,7 +44,7 @@ void Calculator() {
             }
 
 
-            int num1 = 0;
+            double num1 = 0;
 
             while (true) {
                 std::cout << "Enter first number: ";
@@ -60,7 +60,7 @@ void Calculator() {
                 }
             }
 
-            int num2 = 0;
+            double num2 = 0;
 
             while (true) {
                 
@@ -80,19 +80,19 @@ void Calculator() {
             std::cout << "\n";
 
             if (operation == "1") {
-                int add = num1 + num2;
+                double add = num1 + num2;
                 std::cout << "Result: " << add << "\n";
             } else if (operation == "2") {
-                int minus = num1 - num2;
+                double minus = num1 - num2;
                 std::cout << "Result: " << minus << "\n";
             } else if (operation == "3") {
-                int times = num1 * num2;
+                double times = num1 * num2;
                 std::cout << "Result: " << times << "\n";
             } else if (operation == "4") {
                 if (num2 == 0) {
                     std::cout << num1 << " cannot be divided by 0" << "\n";
                 } else {
-                    int divide = num1 / num2;
+                    double divide = num1 / num2;
                     std::cout << "Result: " << divide << "\n";
                 }
             }
