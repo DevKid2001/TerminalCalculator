@@ -8,6 +8,7 @@ This project is released under MIT License [MIT License](LICENSE).
 ## Features
 - CLI (Command-Line Interface)
 - Addition, subtraction, multiplication, and division
+- Support for Decimal numbers
 - Custom Terminal Title
 - Terminal Color Green
 - Loops
