@@ -5,7 +5,6 @@
 #include <string>
 #include <limits>
 #include <cstdlib>
-#include <windows.h>
 
 void Calculator() {
     bool running = true;
